@@ -47,7 +47,7 @@ func LogDebug(Mesg string) {
 
 func GetDomainFromZone(Zone string) string {
 	_segs := strings.Split(strings.TrimSuffix(Zone, "."), ".")
-	_segs = _segs[len(_segs)-2:]
+	_segs = _segs[len(_segs)-4:]
 	return strings.Join(_segs, ".")
 }
 

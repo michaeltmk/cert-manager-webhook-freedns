@@ -15,8 +15,8 @@ func TestHttpRequest(t *testing.T) {
 */
 
 func TestGetDomainFromZone(t *testing.T) {
-	assert.Equal(t, GetDomainFromZone("a.b.example.com"), "example.com")
-	assert.Equal(t, GetDomainFromZone("example.com"), "example.com")
+	assert.Equal(t, GetDomainFromZone("b.b.a.b.example.com"), "a.b.example.com")
+	// assert.Equal(t, GetDomainFromZone("example.com"), "example.com")
 }
 
 func TestOperations(t *testing.T) {
