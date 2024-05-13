@@ -13,8 +13,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: penguinade/cert-manager-webhook-freedns
-  tag: 2022.03.15
+  repository: michaeltse/cert-manager-webhook-freedns
+  tag: 20.3.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""
