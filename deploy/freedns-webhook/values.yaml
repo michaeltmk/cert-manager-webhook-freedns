@@ -14,7 +14,7 @@ certManager:
 
 image:
   repository: michaeltse/cert-manager-webhook-freedns
-  tag: 20.3.0
+  tag: 0.3.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""
